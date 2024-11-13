@@ -9,7 +9,7 @@ module.exports = {
     role: 2,
     shortDescription: "Send bot script",
     longDescription: "Send bot specified file ",
-    category: "ArYan",
+    category: "SaGor",
     guide: "{pn} file name."
   },
 
