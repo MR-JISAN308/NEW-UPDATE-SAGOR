@@ -1,4 +1,4 @@
-const header = `👑𝙰𝚁𝚈𝙰𝙽 𝚅𝙸𝙿 𝚄𝚂𝙴𝚁 👑`;
+const header = `👑 SAGOR VIP USER 👑`;
 
 const fs = require("fs");
 
