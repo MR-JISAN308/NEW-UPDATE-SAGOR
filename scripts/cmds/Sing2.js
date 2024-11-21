@@ -45,7 +45,7 @@ if (urlYtb) {
     try {
       result = ((await axios.get(`${await baseApiUrl()}/ytFullSearch?songName=${keyWord}`)).data).slice(0, maxResults);
     } catch (err) {
-      return api.sendMessage("❌ An error occurred:"+err.message,event.threadID,event.messageID);
+      return api.sendMessage("🙂প্রিয় যেই গানটি শুনতে চাও অর্ধেক লাইন লেখো  :"+err.message,event.threadID,event.messageID);
     }
     if (result.length == 0)
       return api.sendMessage("⭕ No search results match the keyword:"+ keyWord,event.threadID,event.messageID);
