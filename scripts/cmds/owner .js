@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '𝗝𝗔𝗛𝗜𝗗𝗨𝗟 𝗜𝗦𝗟𝗔𝗠 𝗦𝗔𝗚𝗢𝗥',
+      name: '𝙈𝙍-𝙅𝙄𝙎𝘼𝙉',
       gender: '𝗠𝗔𝗟𝗘',
-      whatsapp: '𝟬𝟭𝟯𝟭𝟰𝟰𝟵𝟵𝟬𝟳𝟵',
-      address: '𝗥𝗔𝗡𝗚𝗣𝗨𝗥, 𝗣𝗔𝗡𝗖𝗛𝗢𝗚𝗔𝗥𝗛, 𝗗𝗘𝗕𝗜𝗚𝗢𝗡𝗝',
-      facebookLink: 'https://www.facebook.com/profile.php?id=Xsagorxnxx',
-      nick: '𝗦𝗔𝗚𝗢𝗥 𝗕𝗢𝗧'
+      whatsapp: '01314470126',
+      address: '𝘿𝙃𝘼𝙆𝘼, 𝙉𝘼𝙏𝙊𝙍, 𝘽𝘼𝙉𝙂𝙇𝘼𝘿𝙀𝙎𝙃',
+      facebookLink: 'https://www.facebook.com/XAIKO.JISAN?mibextid=ZbWKwL',
+      nick: '𝙅𝙄𝙎𝘼𝙉-𝙓𝘼𝙄𝙆𝙊'
     };
 
     const bold = 'https://i.imgur.com/yJbsOvH.jpeg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
