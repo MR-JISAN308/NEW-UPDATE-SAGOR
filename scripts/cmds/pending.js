@@ -47,7 +47,13 @@ onReply: async function({ api, event, Reply, getLang, commandName, prefix }) {
         const index = body.split(/\s+/);
         for (const ArYanIndex of index) {
             if (isNaN(ArYanIndex) || ArYanIndex <= 0 || ArYanIndex > Reply.pending.length) return api.sendMessage(getLang("invaildNumber", ArYanIndex), threadID, messageID);
-            api.sendMessage(`successful add ✅`, Reply.pending[ArYanIndex - 1].threadID);
+            api.sendMessage(`𝘼𝙙𝙢𝙞𝙣 𝘼𝙥𝙥𝙧𝙤𝙫𝙚 𝙏𝙝𝙖 𝙂𝙘 ✅ 𝙈𝙮 𝙤𝙚𝙣𝙚𝙧:𝙈𝙍-𝙅𝙄𝙎𝘼𝙉  💋
+
+𝙃𝙚𝙧𝙚 𝙞𝙨 𝙢𝙮 𝙤𝙬𝙣𝙚𝙧 𝙞𝙙 𝙇𝙞𝙣𝙠:https://www.facebook.com/XAIKO.JISAN?mibextid=ZbWKwL
+
+•𝗕𝗼𝘁 .𝗵𝗲𝗹𝗽 𝘀𝗲𝗲 𝘆𝗼𝘂 𝗮𝗹𝗹 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀
+
+•𝗛𝗮𝘃𝗲 𝗮 𝗻𝗶𝗰𝗲 𝗺𝗼𝗿𝗻𝗶𝗻𝗴 💋`, Reply.pending[ArYanIndex - 1].threadID);
             count+=1;
         }
         return api.sendMessage(getLang("approveSuccess", count), threadID, messageID);
