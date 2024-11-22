@@ -1,4 +1,4 @@
-const axios = require('axios');
+.const axios = require('axios');
 const baseApiUrl = async () => {
   const base = await axios.get('https://raw.githubusercontent.com/ARYAN-STORE/ARYAN-ALL-API/refs/heads/main/api.json');
   return base.data.api;
