@@ -1,7 +1,7 @@
 let axios = require("axios"); 
 module.exports = {
   config: {
-    name: "imgur1",
+    name: "imgur",
     aliases: [`imagegur`],
     version: "1.0",
     author: "otiney",
